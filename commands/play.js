@@ -101,7 +101,7 @@ async function play(client, interaction) {
                     url: config.SupportServer
                 })
                 .setDescription('**➡️ Your request has been successfully processed.**\n**➡️ Please use buttons to control playback**')
-                 .setFooter({ text: '🎶 Enjoy your music!'}),
+                 .setFooter({ text: '🎶 Enjoy your music Chi!'}),
 
             new EmbedBuilder()
                 .setColor(config.embedColor)
@@ -111,7 +111,7 @@ async function play(client, interaction) {
                     url: config.SupportServer
                 })
                 .setDescription('**➡️ Your request has been successfully processed.**\n**➡️ Please use buttons to control playback**')
-                 .setFooter({ text: '🎶 Enjoy your music!'}),
+                 .setFooter({ text: '🎶 Enjoy your music Chi!'}),
 
             new EmbedBuilder()
                 .setColor(config.embedColor)
@@ -121,7 +121,7 @@ async function play(client, interaction) {
                     url: config.SupportServer
                 })
                 .setDescription('**➡️ Your request has been successfully processed.**\n**➡️ Please use buttons to control playback**')
-                .setFooter({ text: '🎶 Enjoy your music!'})
+                .setFooter({ text: '🎶 Enjoy your music Chi!'})
         ];
 
         const randomIndex = Math.floor(Math.random() * embeds.length);
