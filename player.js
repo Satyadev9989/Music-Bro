@@ -59,7 +59,7 @@ function initializePlayer(client) {
                 name: 'Now Playing For My Lovely Chi',
                 iconURL: config.MusicIcon
             })
-            .setDescription('        **💕I Love You Babe😘**')
+            .setDescription('        **💕I Love You Babe 😘**')
             .setImage('attachment://musicard.png')
             .setColor(config.embedColor);
 
