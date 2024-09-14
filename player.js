@@ -56,10 +56,10 @@ function initializePlayer(client) {
 
         const embed = new EmbedBuilder()
             .setAuthor({
-                name: 'Now Playing',
+                name: 'Now Playing For My Lovely Chi',
                 iconURL: config.MusicIcon
             })
-            .setDescription('**To My Lovely Chi**')
+            .setDescription('**     I Love You Babe**')
             .setImage('attachment://musicard.png')
             .setColor(config.embedColor);
 
