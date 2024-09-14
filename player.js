@@ -59,7 +59,7 @@ function initializePlayer(client) {
                 name: 'Now Playing',
                 iconURL: config.MusicIcon
             })
-            .setDescription(' To My Lovely Chi ')
+            .setDescription('🎶 **Controls:**\n 🔁 `Loop`, ❌ `Disable`, ⏭️ `Skip`, 📜 `Queue`, 🗑️ `Clear`\n ⏹️ `Stop`, ⏸️ `Pause`, ▶️ `Resume`, 🔊 `Vol +`, 🔉 `Vol -`')
             .setImage('attachment://musicard.png')
             .setColor(config.embedColor);
 
@@ -357,17 +357,17 @@ function initializePlayer(client) {
             .addComponents(
                 new ButtonBuilder()
                     .setCustomId("stopTrack")
-                    .setEmoji('⬛')
+                    .setEmoji('⏹️')
                     .setStyle(ButtonStyle.Danger)
                     .setDisabled(disabled),
                 new ButtonBuilder()
                     .setCustomId("pauseTrack")
-                    .setEmoji('❚❚')
+                    .setEmoji('⏸️')
                     .setStyle(ButtonStyle.Secondary)
                     .setDisabled(disabled),
                 new ButtonBuilder()
                     .setCustomId("resumeTrack")
-                    .setEmoji('▶')
+                    .setEmoji('▶️')
                     .setStyle(ButtonStyle.Secondary)
                     .setDisabled(disabled),
                 new ButtonBuilder()
