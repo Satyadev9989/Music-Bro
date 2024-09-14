@@ -357,17 +357,17 @@ function initializePlayer(client) {
             .addComponents(
                 new ButtonBuilder()
                     .setCustomId("stopTrack")
-                    .setEmoji('⏹️')
+                    .setEmoji('⬛')
                     .setStyle(ButtonStyle.Danger)
                     .setDisabled(disabled),
                 new ButtonBuilder()
                     .setCustomId("pauseTrack")
-                    .setEmoji('⏸️')
+                    .setEmoji('❚❚')
                     .setStyle(ButtonStyle.Secondary)
                     .setDisabled(disabled),
                 new ButtonBuilder()
                     .setCustomId("resumeTrack")
-                    .setEmoji('▶️')
+                    .setEmoji('▶')
                     .setStyle(ButtonStyle.Secondary)
                     .setDisabled(disabled),
                 new ButtonBuilder()
