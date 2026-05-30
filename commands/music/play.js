@@ -30,7 +30,7 @@ const data = new SlashCommandBuilder()
     option.setName("name")
       .setDescription("Enter song name / link or playlist")
       .setRequired(true)
-      .setAutocomplete(true)
+      .setAutocomplete(false)
   );
 
 const spotifyApi = new SpotifyWebApi({
